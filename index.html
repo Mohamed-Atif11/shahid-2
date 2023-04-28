@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet" />
+  <title>shahid-signup</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark con " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="#"><img class="navbar-brand" src="img/shahid logo.webp" width="100"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+          <li class="nav-item basic ">
+            <a class="nav-link active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">TV Shows </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Live Tv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My List</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Kids</a>
+          </li>
+        </ul>
+<!-- login -->
+<div class="dropdown me-2">
+    <a class="btn btn-success dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i></i>
+    </a>
+    <ul class="dropdown-menu mt-2">
+      <li><a class="dropdown-item" href="shahid-login.html"><i class="fa-solid fa-arrow-right-to-bracket  fa-rotate-180 text-success"></i> login </a></li>
+      <li><a class="dropdown-item" href="shahid-all.html"><i class="fa-solid fa-user-secret text-danger"></i> login as guest </a></li>
+      <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+    </ul>
+  </div>
+  <!--  -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--  -->
+    <form class="row  position-absolute top-50 start-50 translate-middle">
+    <div class="title-2">sign up please <i class="fa-solid fa-arrow-right-to-bracket icon"></i></div>
+    <div class="col-md-6 mt-2">
+      <label for="inputEmail4" class="form-label">First Name</label>
+      <input type="email" class="form-control form-control-1" id="inputEmail4">
+    </div> 
+    <div class="col-md-6 mt-2">
+        <label for="inputEmail4" class="form-label">Last Name</label>
+        <input type="email" class="form-control form-control-1" id="inputEmail4">
+      </div>
+    <div class="col-md-6 mt-2">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control form-control-1" id="inputPassword4">
+    </div>
+    <div class="col-md-6 mt-2">
+        <label for="inputPassword4" class="form-label"> confirm Password</label>
+        <input type="password" class="form-control form-control-1" id="inputPassword4">
+      </div>
+    <div class="col-12 mt-2">
+      <label for="email" class="form-label">Email</label>
+      <input type="text" class="form-control form-control-1" id="inputAddress" placeholder="ex....@gmail.com">
+    </div>
+    <div class="col-12 mt-2">
+      <label for="inputAddress2" class="form-label">Phone</label>
+      <input type="tel" class="form-control form-control-1" id="inputAddress2" placeholder="01xxxxxxxxx" value="01">
+    </div>
+            <!-- <img class="img mt-2" src="img/change.png"/>
+            <input class="mt-2" type="file"/> -->
+    <div class="col-12 mt-3">
+      <div class="form-check mt-2">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Save my info
+        </label>
+      </div>
+    </div>
+    <div class="col-2 mt-2">
+       <a href="shahid-all.html" class=" btn btn-1 my-2">login</a>
+    </div>
+    <div class="col-2 mt-2">
+       <button type="reset" class=" btn btn-1  my-2">reset</button>
+    </div>
+</form>
+        
+<!-- script -->
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
